@@ -17,5 +17,5 @@ class Talo:
 
     def palohälytys(self):
         for i in range(self.hissien_lukumäärä):
-            print(f"Hissi {i + 1} numero ")
+            print(f"Hissi nunmero {i + 1}")
             self.hissit[i].siirry_kerrokseen(self.alinkerros)
