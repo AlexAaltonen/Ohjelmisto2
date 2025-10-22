@@ -1,5 +1,7 @@
 from classes.auto import Auto
 import random
+from tabulate import tabulate
+
 autot = []
 for i in range(1, 11):
     # arvo huippunopeus 100 - 200
@@ -21,15 +23,15 @@ while kokonaismatka < 10000:
         # hae matkan arvo, jos yli 10000, lopeta kisa asettamalla auton matka
         #kokonaismatkaksi
 
-
+tilanne_taulukko = []
 for auto in autot:
-    print(f'''Auton rekisteritunnus: {auto.rekisteritunnus}
-    Auton huippunopeus: {auto.huippunopeus} km/h
-    Auton tämänhetkinen nopeus: {auto.tämänhetkinen_nopeus} km/h
-    Auton kuljettu matka: {auto.kuljettu_matka} km''')
-    print()
+    tilanne_taulukko.append([auto.rekisteritunnus,
+                            f"{auto.tämänhetkinen_nopeus} km/h",
+                            f"{auto.kuljettu_matka} km"])
+print(tabulate(tilanne_taulukko, headers = ["Nimi","Nopeus","Matka"], tablefmt="grid"))
 
 
 # googlaa joku taulukkokirjasto tulostamiseen
+# https://www.datacamp.com/tutorial/python-tabulate
 
 # ehkä metodi, joka palauttaa ominaisuudet dict / sanakirjana
