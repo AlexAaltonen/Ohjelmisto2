@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79448926-f88d-43ca-9f4a-ae45377e9613" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/.idea/Ohjelmisto2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML-example/my-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod-11/teht.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/catpicture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/css/Meteor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/css/Wave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/css/hienokuva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/css/marimekko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/alexa/PycharmProjects/Ohjelmisto2/website",
+    "last_opened_file_path": "C:/Users/alexa/PycharmProjects/Ohjelmisto2/website/css",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,7 +74,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\PycharmProjects\Ohjelmisto2\website\css" />
       <recent name="C:\Users\alexa\PycharmProjects\Ohjelmisto2\website" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\PycharmProjects\Ohjelmisto2\website\css" />
     </key>
   </component>
   <component name="RunManager" selected="Python.teht.4">
@@ -225,7 +222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760969240000</updated>
-      <workItem from="1761384579456" duration="18879000" />
+      <workItem from="1761384579456" duration="23721000" />
     </task>
     <task id="LOCAL−00001" summary="ok">
       <option name="closed" value="true" />
@@ -255,7 +252,14 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1761151375917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="ok">
+      <option name="closed" value="true" />
+      <created>1761404222635</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1761404222635</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

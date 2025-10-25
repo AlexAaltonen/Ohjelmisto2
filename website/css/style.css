@@ -1,25 +1,28 @@
 .container {
     width: 60%;
+    height: 100%;
     margin: auto;
-    background-color: yellow;
+
+
 }
 
 header {
     display: flex;
-    background-color: grey;
+    background-color: royalblue;
     height: 5rem;
-    width: 80%;
+    width: 100%;
     margin: auto;
+
 
 }
 
 nav{
-    width: 85%;
+    width: 100%;
 
 }
 
 h1 {
-    background-color: blue;
+    background-color: lightblue;
     display: flex;
     width: 15%;
     line-height: 3rem ;
@@ -31,9 +34,8 @@ h1 {
 
 
 li a {
-    color: floralwhite;
+    color: black;
     text-decoration: none;
-    background-color: green;
     width: 15rem;
     display: block;
     text-align: center;
@@ -51,8 +53,7 @@ ul {
 }
 
 main{
-    background-color: yellow;
-    height: 80rem;
+
     display: flex;
     justify-content: center;
 
@@ -65,10 +66,10 @@ section {
     font-size: 5rem;
     display: block;
     align-items: center;
-    background-color: green;
-    width: 80%;
-    height:80%;
+    width: 100%;
+    height:100%;
     justify-content: space-evenly;
+    background-image: url("meteor.svg");
 
 }
 
@@ -80,10 +81,10 @@ h2 {
 }
 
 p {
-    font-size: 1rem;
-    max-width: 800px;
+    font-size: 1.4rem;
+    width: 60%;
     margin: auto;
-    width: 80%;
-
+    padding: 1rem;
+    color: black;
 }
 
