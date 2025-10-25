@@ -1,0 +1,89 @@
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: yellow;
+}
+
+header {
+    display: flex;
+    background-color: grey;
+    height: 5rem;
+    width: 80%;
+    margin: auto;
+
+}
+
+nav{
+    width: 85%;
+
+}
+
+h1 {
+    background-color: blue;
+    display: flex;
+    width: 15%;
+    line-height: 3rem ;
+    padding: 1rem;
+    margin: 0;
+    justify-content: center;
+
+}
+
+
+li a {
+    color: floralwhite;
+    text-decoration: none;
+    background-color: green;
+    width: 15rem;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    line-height: 1rem;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: right;
+    display: flex;
+
+}
+
+main{
+    background-color: yellow;
+    height: 80rem;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+section {
+    text-align: center;
+    font-size: 5rem;
+    display: block;
+    align-items: center;
+    background-color: green;
+    width: 80%;
+    height:80%;
+    justify-content: space-evenly;
+
+}
+
+h2 {
+    justify-content: space-evenly ;
+    display: flex;
+    width: 100%;
+
+}
+
+p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: auto;
+    width: 80%;
+
+}
+
