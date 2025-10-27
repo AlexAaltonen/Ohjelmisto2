@@ -1,5 +1,4 @@
 .container {
-    width: 100%;
     margin: auto;
 
 
@@ -52,7 +51,7 @@ ul {
 }
 main{
 
-    display: block;
+    display: flex;
     background-image: url("meteor.svg");
 }
 
@@ -68,7 +67,7 @@ body.products main{
 
 section {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     display: block;
     align-items: center;
     width: 100%;
@@ -78,10 +77,8 @@ section {
 }
 
 body.products section {
-    text-align: center;
     font-size: 1rem;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     background-image: url("meteor.svg");
 }
@@ -93,12 +90,13 @@ h2 {
 
 }
 
-.p {
-    font-size: 1.4rem;
-    width: 60%;
+body.home p {
+    font-size: 2rem;
+    width: 50%;
     margin: auto;
     padding: 1rem;
     color: black;
+    text-align: center;
 }
 
 body.products p {
@@ -110,27 +108,25 @@ body.products p {
 }
 
 figure {
-    background-color: grey;
-    width: 70%;
-    justify-content: center;
-    margin: auto;
+    background-color: white;
+    float: left;
 }
 
-figure p {
-    text-align: left;
-    justify-content: center;
 
-}
 
 
 figcaption {
+    margin: auto;
     text-align: left;
-    padding-left: 2rem;
-
-
+    padding: 1rem;
 }
 article {
     width: 33%;
-    justify-content: center;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body.products article p {
+    text-align: left;
+    font-size: 1.4rem;
 }
