@@ -2,7 +2,7 @@ from classes.kirja import Julkaisu, Kirja, Lehti
 
 lehti = Lehti("Aku Ankka", "Aki Hyyppä")
 
-kirja = Kirja("Hytti n:o 6", "Rosa Liksom", 200)
+kirja = Kirja("Hytti numero: 6", "Rosa Liksom", 200)
 
 
 lehti.tulosta_tiedot()
