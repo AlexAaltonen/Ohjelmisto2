@@ -4,6 +4,12 @@
 
 }
 
+body {
+    margin: 0
+
+}
+
+
 header {
     display: flex;
     background-color: #BFBFBF;
@@ -58,7 +64,7 @@ body.home main{
 
     display: flex;
     background-image: url("sprinkle.svg");
-    padding-bottom: 40rem;
+    padding-bottom: 10rem;
 }
 
 
@@ -106,7 +112,7 @@ body.products main{
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
-    padding-bottom: 40rem;
+    padding-bottom: 10rem;
 }
 
 
@@ -119,6 +125,7 @@ body.products section {
 
 body.products section h2 {
     width: 100%;
+    
 }
 
 
@@ -186,6 +193,8 @@ body.contact section {
 
 body.contact section h2{
     width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
 
 }
 
@@ -212,7 +221,7 @@ body.contact figure h2 {
 
 body.contact main {
     background-image: url("sprinkle.svg");
-    padding-bottom: 40rem;
+    padding-bottom: 10rem;
     display: inline-block;
 
 }
