@@ -24,11 +24,11 @@ class Auto:
 
 class Sahkoauto(Auto):
     def __init__(self, rekisteritunnus, huippunopeus, akkukapasiteetti):
-        Auto.__init__(self, rekisteritunnus, huippunopeus)
+        super().__init__(rekisteritunnus, huippunopeus)
         self.akkukapasiteetti = akkukapasiteetti
 
 
 class Polttomoottioriauto(Auto):
     def __init__(self, rekisteritunnus, huippunopeus, bensatankki):
-        Auto.__init__(self, rekisteritunnus, huippunopeus)
+        super().__init__(rekisteritunnus, huippunopeus)
         self.bensatankki = bensatankki
