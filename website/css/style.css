@@ -4,8 +4,13 @@
 
 }
 
+@font-face {
+    font-family: 'roboto', sans-serif;
+}
+
 body {
     margin: 0
+
 
 }
 
@@ -63,7 +68,7 @@ ul {
 body.home main{
 
     display: flex;
-    background-image: url("sprinkle.svg");
+    background-image: url("../img/Sprinkle.svg");
     padding-bottom: 10rem;
 }
 
@@ -78,7 +83,7 @@ body.home section {
     width: 100%;
     height:100%;
     justify-content: space-evenly;
-    background-image: url("sprinkle.svg");
+    background-image: url("../img/Sprinkle.svg");
     padding: 1rem;
     font-size: 1rem;
 }
@@ -108,7 +113,7 @@ body.home p {
 body.products main{
 
     display: flex;
-    background-image: url("sprinkle.svg");
+    background-image: url("../img/Sprinkle.svg");
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
@@ -120,7 +125,7 @@ body.products section {
     font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
-    background-image: url("sprinkle.svg");
+    background-image: url("../img/Sprinkle.svg");
 }
 
 body.products section h2 {
@@ -189,6 +194,7 @@ body.contact section {
     flex-wrap: wrap;
     text-align: left;
     margin: 0;
+    padding-right: 4rem;
 }
 
 body.contact section h2{
@@ -220,7 +226,7 @@ body.contact figure h2 {
 }
 
 body.contact main {
-    background-image: url("sprinkle.svg");
+    background-image: url("../img/Sprinkle.svg");
     padding-bottom: 10rem;
     display: inline-block;
 
