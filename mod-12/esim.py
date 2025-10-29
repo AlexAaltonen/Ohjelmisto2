@@ -5,9 +5,6 @@ hakusana = input("Anna hakusana: ")
 pyyntö = "https://api.tvmaze.com/search/shows?q=" + hakusana
 
 
-
-
-
 try:
     vastaus = requests.get(pyyntö)
     if not vastaus.ok:

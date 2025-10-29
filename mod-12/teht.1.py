@@ -1,13 +1,14 @@
+from signal import valid_signals
+
 import requests
-# dbe344fcfb50969aee786a14e9eecd3d
-
-# https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
-hakusana = input("Anna kaupunki: ")
 
 
-# geoping http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
+pyyntö = "https://api.chucknorris.io/jokes/random"
 
-pyyntö = f"http://api.openweathermap.org/geo/1.0/direct?q={hakusana}&limit=5&appid=dbe344fcfb50969aee786a14e9eecd3d"
-vastaus = requests.get(pyyntö).json()
+vastaus = requests.get(pyyntö)
 
-print(vastaus)
+json_vastaus = vastaus.json()
+
+#print(json_vastaus)
+
+print(json_vastaus["value"])
